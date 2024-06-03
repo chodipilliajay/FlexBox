@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script></script>
+    <style>
+        #container{
+            display: flex;
+            gap:10px;
+        }
+        p{
+            /*width: 50px; /* ignored*/
+            /*flex-basis: 100px; 
+            max-width: 200px;
+            min-width: 300px;
+            flex-basis: 100px;
+            flex-shrink: 0;
+            flex-grow: 0;*/
+            flex-basis:0;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p  style="background-color: blue;">Home</p>
+        <p style="background-color: pink;">About</p>
+        <p style="background-color: orange;">Contact Us</p>
+        <p style="background-color: skyblue;">The Best Programming School in the World</p>
+    </div>
+    <a href="mailto:chodipilliajay165@gmail.com">mail</a>
+</body>
+</html>
